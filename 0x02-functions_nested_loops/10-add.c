@@ -1,12 +1,11 @@
-#include "studio.h"
+#include "holberton.h"
 /**
- * add - adds two integers together
- * @a: value to be used for sum.
- * @b: second value to be use for sum.
- *
- * Return: int (Sum)
+ * add - a function that adds two integers and returns the result
+ * @one: first number input
+ * @two: second number input
+ * Return: one + two
  */
-int add(int a, int b)
+int add(int one, int two)
 {
-	return (a + b);
+	return (one + two);
 }
